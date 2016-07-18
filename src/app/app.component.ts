@@ -1,5 +1,5 @@
 import { Component, ViewEncapsulation } from '@angular/core';
-import * as d3 from 'd3';
+declare var d3: any;
 
 @Component({
   moduleId: module.id,
